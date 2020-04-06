@@ -20,16 +20,18 @@ font-size: 50px;}
 #menu-deroulant li {
 /* on place les liens du menu horizontalement */
     display: inline-block;
+
 }
 #menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
+    
 }
 #menu-deroulant a {
     text-decoration: none;
     display: block;
-	color:#000;
-	font-size: 30px;
+	color: orange;
+	
 }
 #menu-deroulant ul {
     position: absolute;
@@ -37,8 +39,24 @@ font-size: 50px;}
     left: -999em;
     text-align: left;
     z-index: 1000;
+    font-size: 20px;
+
 }
 #menu-deroulant li:hover ul {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
 }
+
+li.ab {font-size: 35px;}
+li.ac {font-size: 35px;}
+
+li.ac {padding-right: 18%; }
+li.ab {padding-left: 18%;}
+
+li.bb {padding-top: 10px;}
+li.bc {padding-top: 10px;}
+li.bd {padding-top: 10px;}
+li.be {padding-top: 10px;}
+li.bf {padding-top: 10px;}
+li.bg {padding-top: 10px;}
+li.bh {padding-top: 10px;}
